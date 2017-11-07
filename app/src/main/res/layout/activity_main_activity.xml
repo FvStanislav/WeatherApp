@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:id="@+id/activity_main_activity"
+              android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+             android:background="#0099cc"
+             tools:context="com.example.duval.weatherapp.Main_activity">
+
+    <TextView android:id="@+id/txtCity"
+              android:layout_marginTop="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textColor="#ffffff"
+              android:textStyle="bold"
+              android:textSize="36sp"
+              android:gravity="center"
+              android:text="City N/A"
+              />
+
+    <TextView android:id="@+id/txtLastUpdate"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="5dp"
+              android:textColor="#ffffff"
+              android:textStyle="bold"
+              android:textSize="18sp"
+              android:gravity="center"
+              android:text="Last update n/a"/>
+
+    <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:background="#FFFFFF"
+            android:id="@+id/ImageView"
+            android:layout_gravity="center"
+
+    />
+
+    <TextView android:id="@+id/txtDescription"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textColor="#ffffff"
+              android:textStyle="bold"
+              android:textSize="30sp"
+              android:gravity="center"
+              android:text="Description n/a"/>
+
+    <TextView android:id="@+id/txtHumidity"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textColor="#ffffff"
+              android:textStyle="bold"
+              android:textSize="30sp"
+              android:gravity="center"
+              android:text="Humidity n/a"/>
+
+    <TextView android:id="@+id/txtTime"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textColor="#ffffff"
+              android:textStyle="bold"
+              android:textSize="30sp"
+              android:gravity="center"
+              android:text="Time n/a"/>
+
+    <TextView android:id="@+id/txtCelsius"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textColor="#ffffff"
+              android:textStyle="bold"
+              android:textSize="30sp"
+              android:gravity="center"
+              android:text="N/A"/>
+    <Button android:id="@+id/buttonMoreInfo"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="20dp"
+              android:text="More Info"
+              android:onClick="clickMoreInfo"
+    />
+
+    <Button android:id="@+id/buttonChangeCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change city"
+            android:onClick="clickChangeCity"
+
+    />
+
+
+
+</LinearLayout>

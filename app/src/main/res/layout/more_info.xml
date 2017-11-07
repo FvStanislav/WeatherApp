@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/activity_main_activity"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#0099cc"
+              tools:context="com.example.duval.weatherapp.More_info">
+
+    <TextView android:id="@+id/txtCity"
+              android:layout_marginTop="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textColor="#ffffff"
+              android:textStyle="bold"
+              android:textSize="36sp"
+              android:gravity="center"
+              android:text="City N/A"
+    />
+
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+    />
+
+    <ListView android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    </ListView>
+
+
+
+
+</LinearLayout>
